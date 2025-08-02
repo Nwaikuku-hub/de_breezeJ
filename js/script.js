@@ -42,20 +42,6 @@ scrollBtn.addEventListener("click", () =>{
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ---------toggle icon--------------
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -64,10 +50,6 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
-
-// ---------scroll sections active link--------------
-// let sections = document.querySelectorAll('section');
-// let navLinks = document.querySelectorAll('.header .navbar a');
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -115,4 +97,5 @@ window.onscroll = () => {
     backSpeed: 100,
     backDelay: 1000,
     loop: true
+
   });
